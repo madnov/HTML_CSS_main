@@ -201,6 +201,10 @@ summary::-webkit-details-marker {
   color: #222222;
 }
 
+.red {
+  color:red
+}
+
 .promo__content {
   padding-left: 64px;
 }
@@ -748,4 +752,34 @@ summary::-webkit-details-marker {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+@media (max-width: 376px) {
+  .sale {
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+
+  .sale__item {
+    width: 90%;
+    height: 150px;
+    padding-top: 50px;
+    padding-left: 18px;
+  }
+  .sale__item_big {
+    width: 90%;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 18px;
+    text-align: center;
+  }
+  .promo__img{
+    display: none;
+  }
+  .promo__content {
+    padding-bottom: 70px;
+    padding-right: 100px;
+  }
 }
