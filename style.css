@@ -791,11 +791,16 @@ summary::-webkit-details-marker {
   width: 1598.001px;
   height: 448px;
   flex-shrink: 0;
-  background: rgba(244, 244, 244, 0.70);
+}
+
+.footer__body {
+  background-image: url("img/footer_background.png");
+  background-size: contain;
+  background-color:rgba(244, 244, 244, 0.70);
 }
 
 .footer__img {
-  padding: 97px 1152px 255px 350px
+  /* padding: 97px 1152px 255px 350px */
 }
 
 .footer__text {
