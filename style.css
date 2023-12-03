@@ -291,9 +291,9 @@ summary::-webkit-details-marker {
 
 .product-box__content {
   margin-top: 48px;
-  display: -ms-grid;
+  /* display: -ms-grid; */
   display: grid;
-  -ms-grid-columns: (360px)[auto-fit];
+  /* -ms-grid-columns: (360px)[auto-fit]; */
   grid-template-columns: repeat(auto-fit, 360px);
   -webkit-box-pack: center;
   -ms-flex-pack: center;
